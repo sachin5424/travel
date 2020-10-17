@@ -40,9 +40,19 @@
 
 /* Extra small devices (phones, 600px and down) */
 
+@media only screen and (min-width: 402px) {
+  #exampleModal {
+        margin-top: 0rem;
+    }
+    #exampleModal img {
+        width: 80%;
+        margin-left: 3rem;
+    }
+
+}
 @media only screen and (max-width: 600px) {
     #exampleModal {
-        margin-top: 2rem;
+        margin-top: 0rem;
     }
     #exampleModal img {
         width: 80%;
@@ -64,7 +74,8 @@
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-
+@media only screen and (min-width: 402px) {
+}
 @media only screen and (min-width: 600px) {}
 
 
